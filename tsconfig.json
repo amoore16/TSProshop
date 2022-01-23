@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES6",
+        "rootDir": "./backend/",
+        "esModuleInterop": true
+    },
+    "exclude": ["./frontend/**/*"]
+}

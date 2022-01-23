@@ -1,0 +1,26 @@
+{
+  "name": "proshop",
+  "version": "1.0.0",
+  "description": "MERN Commerce",
+  "main": "./backend/server.ts",
+  "scripts": {
+    "server": "nodemon ./backend/server.ts",
+    "client": "npm start --prefix frontend"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/express": "^4.17.13",
+    "@types/mongodb": "^4.0.7",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^17.0.10",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.7",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  }
+}
